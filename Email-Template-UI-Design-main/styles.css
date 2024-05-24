@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+  --primary-clr: #00336c;
+  --white: #fff;
+  --btn-hover: #0953a5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: var(--primary-clr);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary-clr);
+  padding: 0 20px;
+}
+
+a,i{
+  color: var(--primary-clr);
+  transition: all 0.5s ease;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+.flex,
+.flex_justify,
+.flex_align{
+  display: flex;
+}
+
+.flex_justify{
+  justify-content: space-between;
+}
+
+.flex_align{
+  align-items: center;
+}
+
+.email_temp{
+  width: 725px;
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+  background: var(--white);
+  margin: 20px auto;
+  border-radius: 3px;
+}
+
+.email_temp .row:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.email_temp .e_deal p{
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  padding: 12px 10px;
+  background: var(--primary-clr);
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.email_temp .e_logo .e_title h1{
+  font-family: 'Sigmar', cursive;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 5px;
+}
+
+.email_temp .e_logo .e_app ul li{
+  padding: 0 10px;
+  border-right: 1px solid var(--primary-clr);
+}
+
+.email_temp .e_logo .e_app ul li:last-child{
+  border: 0;
+  font-size: 28px;
+}
+
+.email_temp .e_img_info{
+  position: relative;
+}
+
+.email_temp .e_img_info .e_img{
+  width: 100%;
+}
+
+.email_temp .e_img_info .e_info_offer{
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 130px;
+  height: 130px;
+  padding: 20px;
+  background: var(--primary-clr);
+  color: var(--white);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.email_temp .e_img_info .e_info_offer span{
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.email_temp .e_img_info .e_info{
+  width: 350px;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    text-align: center;
+}
+
+.email_temp .e_img_info .e_info p,
+.email_temp .e_process ul{
+  margin: 20px 0;
+}
+
+.email_temp .e_img_info .e_info h1{
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.email_temp button{
+  width: 150px;
+  border: 0;
+  background: var(--primary-clr);
+  padding: 15px 20px;
+  border-radius: 3px;
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.email_temp button:hover{
+  background: var(--btn-hover);
+}
+
+.email_temp .e_process{
+  text-align: center;
+}
+
+.email_temp .e_process ul li{
+  padding: 0 15px;
+}
+
+.email_temp .e_process .e_icon{
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.email_temp .e_process .e_title{
+  font-size: 22px;
+  line-height: 28px;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.email_temp .e_social{
+  background: var(--primary-clr);
+  padding: 15px 25px;
+  color: var(--white);
+  border-radius: 3px;
+}
+
+.email_temp .e_social ul li{
+  padding: 0 10px;
+}
+
+.email_temp .e_social ul li p{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.email_temp .e_social ul li a,
+.email_temp .e_social ul li a i{
+  color: var(--white);
+}
+
+.email_temp  a:hover{
+  text-decoration: underline;
+}
+
+.email_temp  i:hover{
+  opacity: 80%;
+}
+
+.email_temp .e_social ul li i{
+  font-size: 24px;
+}
